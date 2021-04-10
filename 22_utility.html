@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- border starts here -->
+        <p class="border-bottom border-danger border-5">
+            this is para
+        </p>
+        <div class="card border-top-0">
+            this is card
+        </div>
+        <br>
+        <!-- border ends here -->
+
+
+        <!-- spacing -->
+        <!-- 
+            value range:0-5
+            padding:
+        1.ps=padding start(left)
+        2.pe=padding end(right)
+        3.pt=padding top
+        4.pb=padding bottom
+     -->
+        <p class="border ps-5 pt-5">this is another para</p>
+        <p class="border">this is para 2 </p>
+        <br>
+
+        <!-- margin -->
+        <!-- 
+            value range:0-5
+            margin:
+        1.ms=padding start(left)
+        2.me=padding end(right)
+        3.mt=padding top
+        4.mb=padding bottom
+        5.mx=margin left and right
+        6.my=margin top and bottom
+        7.m=all side
+     -->
+        <p class="border ms-5 mt-5">this is another para</p>
+        <p class="border ms-5">this is para 2 </p>
+        <div class="border mx-auto w-25">im div</div>
+        <!-- DISPLAY -->
+        <p class="text-danger d-col-block d-sm-none d-md-block d-lg-none d-xl-block d-xxl-none">Lorem ipsum dolor, sit
+            amet consectetur adipisicing.</p>
+        <!-- FLEXBOX -->
+        <div class="d-flex justify-content-center">
+            <!-- 
+                d-flex`
+                justify-content-between 
+            -->
+            <div class="border border-danger">div 1</div>
+            <div class="border border-danger">div 2</div>
+            <div class="border border-danger">div3</div>
+        </div>
+        <div class="border border-dark w-50">Lorem ipsum dolor sit.</div>
+        <div style="height:400px;" class="bg-primary">
+            <div class="border border-light mt-2 d-inline-block h-25">div 1</div>
+            <div class="border border-light mt-2 d-inline-block h-50">div 2</div>
+            <div class="border border-light mt-2 d-inline-block h-75">div 3</div>
+            <div class="border border-light mt-2 d-inline-block h-100">div 4</div>
+        </div>
+    </div>
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

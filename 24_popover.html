@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <button id="tt" class="btn btn-dark" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="left"
+        title="im heading"
+        data-bs-content="im content Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veritatis aliquam cupiditate eum ipsa commodi enim blanditiis reiciendis ab doloremque! ">
+        click
+        me</button>
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var popover = new bootstrap.Popover(document.querySelector('#tt'), {
+            container: 'body'
+        }) 
+    </script>
+</body>
+
+</html>
